@@ -1,0 +1,16 @@
+---
+title: "Billboard"
+author: "Mitch"
+date: "23/09/2021"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(tidymodels)
+```
+```{r}
+billboard <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-09-14/billboard.csv")
+audio_features <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-09-14/audio_features.csv")
+```
+
